@@ -1,0 +1,149 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container styling */
+.verification-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.verification-card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Icon styling */
+.verification-icon {
+  margin-bottom: 20px;
+}
+
+.verification-icon svg {
+  width: 64px;
+  height: 64px;
+  fill: green;
+}
+
+/* Text styling */
+.verification-message h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.verification-message p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .verification-card {
+      padding: 20px;
+  }
+
+  .verification-message h1 {
+      font-size: 20px;
+  }
+
+  .verification-message p {
+      font-size: 16px;
+  }
+}
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+/* Container styling */
+.verification-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #f0f4f8;
+}
+
+/* Card styling */
+.verification-card {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Icon styling */
+.verification-icon {
+  margin-bottom: 25px;
+}
+
+.verification-icon svg {
+  width: 64px;
+  height: 64px;
+  fill: #28a745;
+}
+
+/* Text styling */
+.verification-message h1 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.verification-message p {
+  font-size: 18px;
+  color: #666;
+  font-weight: 400;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .verification-card {
+      padding: 30px;
+  }
+
+  .verification-message h1 {
+      font-size: 22px;
+  }
+
+  .verification-message p {
+      font-size: 16px;
+  }
+}
